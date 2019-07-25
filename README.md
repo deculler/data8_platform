@@ -41,7 +41,7 @@ To remove your data8 environment
 
 # Basic Data8 Docker container
 
-The [Dockerfile](Dockerfile) builds a container with (datascience)[https://github.com/data-8/datascience] layered over [jupyter/scipy-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
+The [Dockerfile](Dockerfile) builds a container with [datascience](https://github.com/data-8/datascience) layered over [jupyter/scipy-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
 
 Assming that you have docker installed, you can run this with
 
@@ -59,9 +59,11 @@ You can also just do:
 ```
 http://localhost:8888/?token=<token_as_above>
 ```
-Once the server is running, you can just open the URL
+Once the server is running, you can just open the URL:
 
-http://localhost:8888 ``` The (RollingDice.ipynb)[RollingDice.ipynb]
+`http://localhost:8888` to conect back to it.
+
+The [RollingDice.ipynb](https://github.com/deculler/data8_platform/blob/master/RollingDice.ipynb)
 notebook is in the `work` folder, so you can give that try to test
 things out.  You are now running in a virtual machine provided by the
 Docker container.  You can use the `upload` button to upload notebooks to
