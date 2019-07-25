@@ -10,7 +10,7 @@ Build python3.6 based data8 configuration as a virtual env
 
 This will include a large suite (leave off the -y if you want to confirm)
 
-`conda create -n data8 python=3.6 -y anaconda`
+`conda create -y -n data8 python=3.6`
 
 Activate it
 
@@ -26,3 +26,5 @@ Or to build it from an environment.yml
 conda env create -f environment.yml
 conda activate data8
 ```
+
+`conda env remove --name data`
