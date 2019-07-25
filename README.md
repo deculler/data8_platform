@@ -2,8 +2,7 @@
 Provide basic starting points for setting up a useful local environment like that
 used in [Data 8](https://data8.org)
 
-This repo can be found at [https://deculler.github.io/data8_platform/](https://deculler.github.io/data8_platform/)
-
+The web page for [this repo](https://github.com/deculler/data8_platform) can be found at [https://deculler.github.io/data8_platform/](https://deculler.github.io/data8_platform/)
 
 Build python3.6 based data8 configuration as a virtual env
 
