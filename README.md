@@ -7,14 +7,14 @@ This repo can be found at [https://deculler.github.io/data8_platform/](https://d
 
 Build python3.6 based data8 configuration as a virtual env
 
-Or to build it from an environment.yml
+To build it from an environment.yml
 
 ```
 conda env create -f environment.yml
 conda activate data8
 ```
 
-Or you can do it manually.
+To do it manually.
 (This will include a large suite (leave off the -y if you want to confirm)
 
 `conda create -y -n data8 python=3.6 pip anaconda jupyterlab`
