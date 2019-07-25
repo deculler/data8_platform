@@ -1,16 +1,23 @@
 # data8_platform
-Provide basic starting points for setting up a useful local data8 environment
-
+Provide basic starting points for setting up a useful local environment like that
+used in [Data 8](https://data8.org)
 
 This repo can be found at [https://deculler.github.io/data8_platform/](https://deculler.github.io/data8_platform/)
 
 
 Build python3.6 based data8 configuration as a virtual env
 
+Or to build it from an environment.yml
 
-This will include a large suite (leave off the -y if you want to confirm)
+```
+conda env create -f environment.yml
+conda activate data8
+```
 
-`conda create -y -n data8 python=3.6`
+Or you can do it manually.
+(This will include a large suite (leave off the -y if you want to confirm)
+
+`conda create -y -n data8 python=3.6 pip anaconda jupyterlab`
 
 Activate it
 
@@ -20,11 +27,13 @@ Install the datascience Tables package in your environment
 
 `pip install datascience`
 
-Or to build it from an environment.yml
+To try it out in the local directory
 
-```
-conda env create -f environment.yml
-conda activate data8
-```
+`jupyter notebook`
 
-`conda env remove --name data`
+Once it opens up in your browser, open `RollingDice.ipynb`.  It shows some
+simple use of datascience Tables, complete with interactive widgets.
+
+To remove your data8 environment
+
+`conda env remove --name data8`
